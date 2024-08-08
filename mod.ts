@@ -1,8 +1,8 @@
 // Referencing the default lib web api typings
-/// <reference lib="dom" />
 import module from "./index.ts";
 
-export const AudioContext: typeof globalThis.AudioContext = module.AudioContext;
+export const AudioContext: (typeof globalThis)["AudioContext"] =
+  module.AudioContext;
 export const OfflineAudioContext: typeof globalThis.OfflineAudioContext =
   module.OfflineAudioContext;
 export const AudioBuffer: typeof globalThis.AudioBuffer = module.AudioBuffer;

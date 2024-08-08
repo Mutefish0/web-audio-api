@@ -2,5 +2,8 @@
   "name": "@mutefish/web-audio-api",
   "version": "0.0.1",
   "exports": "./mod.ts",
-  "tasks": {}
+  "tasks": {},
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "deno.ns"]
+  }
 }
