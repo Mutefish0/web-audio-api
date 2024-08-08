@@ -1,0 +1,32 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@mutefish/deno-assets-module@0.0.2": "jsr:@mutefish/deno-assets-module@0.0.2",
+      "jsr:@std/encoding@1": "jsr:@std/encoding@1.0.1",
+      "jsr:@zip-js/zip-js@2.7.48": "jsr:@zip-js/zip-js@2.7.48",
+      "npm:@types/node": "npm:@types/node@18.16.19"
+    },
+    "jsr": {
+      "@mutefish/deno-assets-module@0.0.2": {
+        "integrity": "414b0b18e837dd3f682e2744232e0643e60d04d58ddcc649dbf9bf58819e3026",
+        "dependencies": [
+          "jsr:@zip-js/zip-js@2.7.48"
+        ]
+      },
+      "@std/encoding@1.0.1": {
+        "integrity": "5955c6c542ebb4ce6587c3b548dc71e07a6c27614f1976d1d3887b1196cf4e65"
+      },
+      "@zip-js/zip-js@2.7.48": {
+        "integrity": "652809664ae9b25ea7d81c5a9fc1447f4fe70446578b5424ce4531d881d89d0f"
+      }
+    },
+    "npm": {
+      "@types/node@18.16.19": {
+        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}
