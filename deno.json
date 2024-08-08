@@ -5,5 +5,8 @@
   "tasks": {},
   "compilerOptions": {
     "lib": ["esnext", "dom", "deno.ns"]
+  },
+  "publish": {
+    "exclude": ["./node-web-audio"]
   }
 }
