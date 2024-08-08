@@ -28,5 +28,7 @@
       }
     }
   },
-  "remote": {}
+  "remote": {
+    "https://raw.githubusercontent.com/Mutefish0/web-audio-api/main/libs/aarch64-apple-darwin.base64.ts": "abfe868b82c06183367992783456db94a8051e4cda54dcd1c0fd3611ae1b9095"
+  }
 }

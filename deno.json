@@ -7,6 +7,6 @@
     "lib": ["esnext", "dom", "deno.ns"]
   },
   "publish": {
-    "exclude": ["./node-web-audio"]
+    "exclude": ["./node-web-audio", "./libs"]
   }
 }
