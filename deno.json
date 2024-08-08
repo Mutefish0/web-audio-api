@@ -1,12 +1,13 @@
 {
   "name": "@mutefish/web-audio-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "exports": "./mod.ts",
   "tasks": {},
   "compilerOptions": {
     "lib": ["esnext", "dom", "deno.ns"]
   },
   "publish": {
-    "exclude": ["./node-web-audio", "./libs"]
+    "exclude": ["./node-web-audio", "./libs"],
+    "include": ["./napi"]
   }
 }
