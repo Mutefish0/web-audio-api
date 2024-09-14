@@ -13,7 +13,12 @@ const tempFilePath = Deno.makeTempFileSync({
 });
 Deno.writeFileSync(tempFilePath, rawBindings.default);
 const bindings = am.require(tempFilePath, true);
-Deno.removeSync(tempFilePath);
+
+try {
+  Deno.removeSync(tempFilePath);
+} catch (_) {
+  //
+}
 
 const module = processBindings(bindings);
 
