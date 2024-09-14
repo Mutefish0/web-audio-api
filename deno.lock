@@ -3,6 +3,7 @@
   "packages": {
     "specifiers": {
       "jsr:@mutefish/deno-assets-module@0.0.2": "jsr:@mutefish/deno-assets-module@0.0.2",
+      "jsr:@mutefish/deno-assets-module@0.0.3": "jsr:@mutefish/deno-assets-module@0.0.3",
       "jsr:@std/encoding@1": "jsr:@std/encoding@1.0.1",
       "jsr:@zip-js/zip-js@2.7.48": "jsr:@zip-js/zip-js@2.7.48",
       "npm:@types/node": "npm:@types/node@18.16.19"
@@ -14,8 +15,17 @@
           "jsr:@zip-js/zip-js@2.7.48"
         ]
       },
+      "@mutefish/deno-assets-module@0.0.3": {
+        "integrity": "cfc8e532d9211f714cac07c11b0760fb9d72be6ec3f61ec191484b68fcb4c4f1",
+        "dependencies": [
+          "jsr:@zip-js/zip-js@2.7.48"
+        ]
+      },
       "@std/encoding@1.0.1": {
         "integrity": "5955c6c542ebb4ce6587c3b548dc71e07a6c27614f1976d1d3887b1196cf4e65"
+      },
+      "@std/encoding@1.0.5": {
+        "integrity": "ecf363d4fc25bd85bd915ff6733a7e79b67e0e7806334af15f4645c569fefc04"
       },
       "@zip-js/zip-js@2.7.48": {
         "integrity": "652809664ae9b25ea7d81c5a9fc1447f4fe70446578b5424ce4531d881d89d0f"

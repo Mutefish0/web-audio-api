@@ -1,4 +1,4 @@
-import { AssetsModule } from "jsr:@mutefish/deno-assets-module@0.0.2";
+import { AssetsModule } from "jsr:@mutefish/deno-assets-module@0.0.3";
 import js from "./web-audio.base64.ts";
 
 const rawBindings = await import(`./napi/${Deno.build.target}.base64.ts`);
